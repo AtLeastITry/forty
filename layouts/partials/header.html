@@ -19,6 +19,8 @@
 	{{ "<!-- Custom Fonts -->" | safeHTML }}
 	<link href="{{ "css/font-awesome.min.css" | absURL }}" rel="stylesheet" type="text/css">
 
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
 	{{ with .Site.Params.favicon }}
 	<link rel="shortcut icon" type="image/x-icon" href="{{ . | absURL }}">
 	<link rel="icon" type="image/x-icon" href="{{ . | absURL }}">
